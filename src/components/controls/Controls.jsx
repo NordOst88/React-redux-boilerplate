@@ -1,7 +1,7 @@
 import React from 'react';
 import { useDispatch } from 'react-redux';
 import { message, Space, Button } from 'antd';
-import { increment, decrement } from '../../reducers/counterReducer';
+import { increment, decrement } from '../../reducers/counterSlice';
 import './Controls.scss';
 import 'antd/lib/space/style/index.css';
 import 'antd/lib/button/style/index.css';

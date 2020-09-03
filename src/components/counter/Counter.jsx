@@ -1,6 +1,6 @@
 import React from 'react';
 import { useSelector } from 'react-redux';
-import { selectCount } from '../../reducers/counterReducer';
+import { selectCount } from '../../reducers/counterSlice';
 import './Counter.scss';
 
 const Counter = () => {
